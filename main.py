@@ -1,5 +1,6 @@
 import datetime
 from dateutil.relativedelta import relativedelta
+
 from datetime import date
 import math
 from wechatpy import WeChatClient
@@ -9,7 +10,7 @@ import os
 import random
 
 i=datetime.datetime.now()
-today=(i+datetime.timedelta(days=1))
+today=(i+datetime.timedelta(days=1).strftime('%Y-%m-%d'))
 #today = datetime.now()
 start_date = os.environ['START_DATE']
 city = os.environ['CITY']

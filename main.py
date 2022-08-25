@@ -1,6 +1,6 @@
 import datetime
 from dateutil.relativedelta import relativedelta
-from datetime import date, datetime
+from datetime import date
 import math
 from wechatpy import WeChatClient
 from wechatpy.client.api import WeChatMessage, WeChatTemplate
